@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "infocommand",
   "version": "${version}",
 
-  "name": "MCT mod",
+  "name": "InfoCommand",
   "description": "用于MCT服务端的信息显示",
   "authors": [
-    "Me!"
+    "Apricityx"
   ],
   "contact": {
     "homepage": "https://www.mctown.tech/",
-    "sources": "https://github.com/MCtown"
+    "sources": "https://github.com/MCtown/InfoCommand"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/infocommand/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tech.mctown.redstone.TimeCommand"
+      "tech.mctown.infocommand.InfoCommand"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "infocommand.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }

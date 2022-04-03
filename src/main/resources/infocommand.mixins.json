@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "tech.mctown.redstone.mixin",
+  "package": "tech.mctown.infocommand.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
