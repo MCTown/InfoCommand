@@ -24,7 +24,7 @@ public class InfoCommand implements ModInitializer {
 		String text = "§a===============================\n"+
 					  "§a         MCTS帮助页面      \n"+
 					  "§a          ==建设中==     \n"+
-					  "§a   服务端已运行§l§d" + time/20/3600/24 + "§a天§l§d"+ time/20/3600/24%24 + "§a时§l§d" + time/20%60 + "§a分\n" +
+					  "§a   服务端已运行§l§d" + time/20/3600/24 + "§a天§l§d"+ time/20/3600/24%24 + "§a时§l§d" + time/20% + "§a分\n" +
 					  "§a===============================";
 		context.getSource().sendFeedback(Text.of(text), false);
 		return 1;
